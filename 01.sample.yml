@@ -6,3 +6,10 @@
       ansible.builtin.yum:
         name: httpd
         state: latest
+
+
+- name: install nginx
+  hosts: WEB
+  become: true
+  roles:
+    - sample
