@@ -7,8 +7,8 @@
 #  ansible.builtin.debug:
 #    msg: URL = {{URL}}
 
-- name: print variable - task variable defined
-  ansible.builtin.debug:
-    msg: URL = {{URL}}
-  vars:
-    URL: tasks.google.com
+#- name: print variable - task variable defined
+#  ansible.builtin.debug:
+#    msg: URL = {{URL}}
+#  vars:
+#    URL: tasks.google.com
