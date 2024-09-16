@@ -5,3 +5,10 @@
     URL: play.google.com
   roles:
     - sample
+
+
+# CLI(-e) command line variable
+# tasks level variable
+# vars dir from roles
+# play level variables
+# defaults
