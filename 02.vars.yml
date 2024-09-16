@@ -1,5 +1,6 @@
 - name: variable
-  hosts: WEB
+  hosts: localhost
+  connection: local
   become: true
   vars:
     URL: play.google.com
