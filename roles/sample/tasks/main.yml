@@ -3,9 +3,9 @@
 #        name: httpd
 #        state: latest
 
-#- name: print variable
-#  ansible.builtin.debug:
-#    msg: URL = {{URL}}
+- name: print variable
+  ansible.builtin.debug:
+    msg: URL = {{URL}}
 
 - name: print variable - task variable defined
   ansible.builtin.debug:
