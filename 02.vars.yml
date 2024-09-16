@@ -4,14 +4,14 @@
   become: true
   vars:
     URL: play.google.com
-    tasks:
-      - name: print
-        ansible.builtin.debug:
-          msg: URL = {{URL}}
+  tasks:
+    - name: print
+      ansible.builtin.debug:
+        msg: URL = {{URL}}
 
+    - name: print task variable
+      ansible.builtin.debug:
+        msg: URL = {{URL}}
+        vars:
+          URL: tasks.google.com
 
-      - name: print task variable
-        ansible.builtin.debug:
-          msg: URL = {{URL}}
-          vars:
-            URL: tasks.google.com
